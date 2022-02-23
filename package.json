@@ -1,0 +1,29 @@
+{
+  "name": "bscnjs-lib",
+  "version": "0.0.1",
+  "description": "An extend lib for bitcoinjs-lib, it supports two new network of bscn and bscn-testnet, and it can generate contract creating and sending transactions",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BSCN-Project/bscnjs-lib.git"
+  },
+  "keywords": [
+    "bscn",
+    "bscnjs",
+    "smart contract",
+    "bitcoin"
+  ],
+  "author": "BSCN dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BSCN-Project/bscnjs-lib/issues"
+  },
+  "homepage": "https://github.com/BSCN-Project/bscnjs-lib#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "bignumber.js": "^8.1.1",
+    "bitcoinjs-lib": "^3.3.2",
+    "bscn-opcodes": "^1.0.0",
+    "safe-buffer": "^5.1.1"
+  }
+}
